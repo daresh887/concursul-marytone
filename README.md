@@ -1,2 +1,2 @@
-# concursul-marytone
-Pagina web a Concursului Marytone
+# concurs_ctm
+https://daresh887.github.io/concurs_ctm/

@@ -1,0 +1,83 @@
+@-webkit-keyframes typing { from { width: 0; } }
+
+.typewrite {
+	white-space: nowrap;
+	overflow: hidden;
+  animation: 
+    typing 5s steps(60, end),
+    blink-caret .5s step-end infinite;
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
+body {
+    background: #0f0f23;
+    color: #cccccc;
+    font-family: "Source Code Pro", monospace;
+    font-size: 14pt;
+  }
+  
+  .rainbow {
+    text-align: center;
+    text-decoration: underline;
+}
+
+  
+  h1 h2, h3, h4, p, ul, a, button {
+    color: #cbcaca;
+    font-family: 'Source Code Pro', monospace;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 22px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: azure;
+  }
+
+  .form_link {
+    color: #5ba35b;
+  }
+  
+  h1, h2 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 18pt;
+    color: #00cc00;
+    font-weight: normal;
+    text-shadow: 0 0 2px #00cc00, 0 0 5px #00cc00;
+  }
+  
+  .title {
+    text-align: center;
+  }
+
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  .discord-button:hover {
+    background-color: #0d6efd;
+  }
+
+  .gmail-button:hover {
+    background-color: #C71610;
+  }
+
+  .information_container {
+    margin-bottom: 75px;
+  }
